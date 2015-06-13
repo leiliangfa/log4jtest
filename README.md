@@ -3,7 +3,7 @@ Log4j测试
 1、应用服务器版本：JBoss7.x or JBoss EAP 6.x
 2、日志文件配置详见项目的log4j.properties文件
 3、访问如下地址日志生成到D\:\\log4jtest.log
-http://localhost:8080/log4jtest/log4jTestServlet		
+http://localhost:8080/log4jtest/log4jTestServlet
 4、访问如下地址日志生成到D\:\\cuntest.log
 http://localhost:8080/log4jtest/log4jTestServlet2
 5、buffer默认8k，至少写满8k才会flush到磁盘日志文件中
